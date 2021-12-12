@@ -1,0 +1,366 @@
+#b
+{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/13/05/05/05/700_FO13050505_6dba86509078deb29bc9fae692aed6f3.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/wall-murals-vector-illustration-of-seamless-math-background.jpg.jpg");
+  background-size: cover;
+}
+
+.g {
+	border: solid 4.5px black;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#l {
+	font-family: "Press Start 2P"; 
+	text-align: center;
+	color: blue;
+}
+
+#uploadImage {
+	background-color: white;
+	color: dimgrey; 
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#s {
+	width:120px; 
+	margin-left: 508px;
+}
+
+#question {
+	visibility: hidden;
+}
+
+#answer {
+	visibility: hidden;
+}
+
+#info {
+	font-size: 20px;
+	font-family: cursive;
+	visibility: hidden;
+}
+
+.option {
+	width: 300px; 
+	background-color: cornflowerblue;
+	height: 30px; 
+	border-radius: 10px;
+	border: solid black 3px; 
+}
+
+.sent {
+	
+	height: 30px; 
+	width: 30px; 
+}
+
+.mice {
+
+	height: 30px; 
+	width: 17px; 
+}
+
+#msg {
+	width: 600px; 
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 400px;
+	margin-right: 10px;
+}
+
+#btn {
+	border-radius: 90px;
+	border: solid 3px black; 
+	width: 50px;
+	height: 50px; 
+	float: left; 
+	margin-left: 10px;
+}
+
+#btnn {
+	border-radius: 90px;
+	border: solid 3px black; 
+	width: 50px;
+	height: 50px; 
+	float: left; 
+}
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+#timer {
+	width:500px; 
+	height:120px; 
+	border: solid red 3px;
+	border-radius: 10px;
+	background-color: rgb(238, 107, 107);
+	float: right;
+	margin-right: 70px;
+}
+
+#note {
+	font-size: 15px;
+	color: black;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.time {
+	border: solid blue 2px; 
+	width:100px;
+	border-radius: 10px;
+	background-color: rgb(132, 112, 247);
+}
+
+#video {
+	float: left;
+	margin-left: 75px;
+}
+
+.a {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	background-image: linear-gradient(to right top, #45a75a, #0cb428, #8df75c, #92daa2, #65e63e);
+}
+
+#th_row {
+	height: 28px;
+	width: 1300px; 
+	background-color: dimgray;
+}
+
+#welcome {
+	color: white;
+}
+
+.column {
+	float: left;
+	padding: 5px;
+	margin-left: 260px;
+}
+
+.row::after {
+	content:""; 
+	clear:both; 
+	display: table;
+}
+
+
+#work {
+	border: solid 3px palevioletred;
+	background-color: rgb(221, 167, 221);
+	width: 300px; 
+	border-radius: 10px;
+	float:center;
+}
+
+#To-do {
+	border: solid 3px red; 
+	background-color: rgb(206, 93, 115);
+	width:300px; 
+	border-radius: 10px;
+}
+
+#Chat {
+	border: solid 3px orange; 
+	background-color: rgb(238, 192, 107);
+	width:300px; 
+	border-radius: 10px;
+}
+
+#Cal {
+	border: solid 3px purple;
+	background-color: rgb(185, 107, 185); 
+	width:300px; 
+	border-radius: 10px;
+}
+
+.img2 {
+    width: 200px; 
+    height: 200px;  
+    border-radius: 0px; 
+}
+
+#line {
+	width: 1300px;
+	height: 7px;
+	background-color: black;
+}
+
+#profile {
+	border-radius: 200px;
+	border: white 3px solid; 
+	width: 100px;
+	height: 100px; 
+}
+
+.photo {
+	width: 150px;
+	height: 30px; 
+	background-color: dimgrey;
+	border: solid 3px white; 
+	color: white;
+	border-radius: 10px;
+}
+
+#title {
+	font-family: "Press Start 2P";
+	text-align: center;
+	color: blue;
+}
+
+#type {
+	width: 500px; 
+}
+
+.header
+{
+	color:royalblue;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.login_div
+{
+	text-align: center;
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+.logo
+{
+	width: 120px;margin-top: 30px;border-radius: 80px;
+}
+#login_button
+{
+	width: 80%;border-radius: 15px;
+	background-color: cornflowerblue;
+	height: 30px; 
+	border: solid black 2px; 
+	border-radius: 10px;
+}
+#logout
+{
+	font-size: 20px; float: left;
+	width: 100px; 
+	height: 55px;
+	border-radius: 10px;
+}
+
+#exit
+{
+	font-size: 20px; float: left;
+	width: 100px; 
+	height: 55px;
+	border-radius: 10px;
+	margin-top: 70px;
+}
+
+#res {
+	width: 400px; 
+	height: 50px; 
+	border: solid black 2px;
+	border-radius: 8px;
+}
+
+#k {
+	float: left;
+}
+
+.wIMG {
+	width:200px; 
+	height: 200px; 
+	border: solid 3px black;
+	border-radius: 10px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+#n
+{
+float: left;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}

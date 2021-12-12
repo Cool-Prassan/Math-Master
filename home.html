@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="a">
+    <center>
+        <h1 id="l">Math Master</h1>
+        <br>
+    <div id="th_row"><h3 id="welcome"></h3></div>
+    <br>
+    <img id="profile" src="https://t3.ftcdn.net/jpg/03/46/83/96/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg">
+    <br>
+    <br>
+    <input id="uploadImage" id="photo" type="file" name="myPhoto" onchange="PreviewImage();" />
+    <br>
+    <button onclick="Logout()" type="button" class="photo">Logout</button>
+    <br><br>
+    <div id="line"></div>
+    <br><br>
+    <div class="row">
+        <div onclick="worksheet()" class="column" id="work">
+            <img class="img2" src="https://static.thenounproject.com/png/3072868-200.png"> 
+            <h3>Worksheets</h3> 
+        </div> 
+        <div onclick="cal()" class="column" id="Cal"> 
+            <img class="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Noun_Project_revision_icon_1067088_cc.svg/1200px-Noun_Project_revision_icon_1067088_cc.svg.png">
+            <h3>Math Revision</h3>
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div onclick="todo()" class="column" id="To-do"> 
+            <img class="img2" src="https://cdn-icons-png.flaticon.com/512/55/55009.png">
+            <h3>Chat</h3>
+        </div>
+        <div onclick="chat()" class="column" id="Chat"> 
+            <img class="img2" src="https://cdn-icons-png.flaticon.com/512/1404/1404755.png">
+            <h3>Consentration</h3>
+        </div>
+    </div>
+</center>
+<br><br>
+<script src="home.js"></script>
+</body>
+</html>
